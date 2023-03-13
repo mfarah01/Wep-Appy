@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://verdant-tartufo-823b35.netlify.app/
+
+# Sitemaps
+Sitemap: https://verdant-tartufo-823b35.netlify.app/sitemap.xml

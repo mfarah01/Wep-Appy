@@ -1,0 +1,46 @@
+{
+  "name": "data-scope",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook 6006",
+    "postbuild": "next-sitemap",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "autoprefixer": "^10.4.11",
+    "next": "12.3.0",
+    "next-seo": "^5.5.0",
+    "next-sitemap": "^3.1.23",
+    "postcss": "^8.4.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-toastify": "^9.1.1",
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.5.9",
+    "@storybook/manager-webpack5": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/node": "18.7.18",
+    "@types/react": "18.0.20",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "eslint-plugin-storybook": "^0.6.1",
+    "typescript": "4.8.3"
+  }
+}
