@@ -7,6 +7,8 @@ app:
   # -- The url of your application to scan --
   host: https://www.datascopeanalytics.net # (required)
 
+hawk: 
+  failureThreshold: medium
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
   # Configuration Docs: https://docs.stackhawk.com/hawkscan/configuration/
